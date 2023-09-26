@@ -1,0 +1,31 @@
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.KontaktContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+ justify-content: space-around;
+  width: 70%;
+}
+.Naslov{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Podrska{
+  width: 40%;
+  height: auto;
+}
+.rowcontainer{
+  display: flex;
+ gap:20px;
+}
+
+.ikona{
+  width: 20px;
+}

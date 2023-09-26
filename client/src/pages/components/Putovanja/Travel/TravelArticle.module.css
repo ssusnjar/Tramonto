@@ -1,0 +1,72 @@
+
+.ime {
+    padding: 16px;
+    width: 100px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardImage {
+    width: 225px;
+    height: 225px;
+  
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+  }
+  
+  .cityInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+  }
+
+  .imeGrada{
+    text-align: left;
+    font-family: 'Cambay', sans-serif;
+    font-size: 22px;
+    color: gray;
+  }
+
+  .Cijena{
+    text-align: right;
+    font-family: 'Cambay', sans-serif;
+    font-size: 22px;
+    color: var(--orange-color);
+  }
+  
+  .dateInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 225px;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  
+  .calendarIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+
+  
+.orangeBtn{
+    width: 140px;
+    height: 40.04px;
+    background: #E4782A;
+    border-radius: 83px;
+    font-family: 'Cambay';
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #E4782A;
+    line-height: 42.04px;
+}

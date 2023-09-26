@@ -1,0 +1,182 @@
+/* 
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .naslov {
+
+
+position: absolute;
+width: 359.41px;
+height: 131.25px;
+left: 77.85px;
+top: 620.5px;
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+
+color: #000000;
+
+
+  }
+  
+  .tekst {
+position: absolute;
+width: 289.88px;
+height: 178.75px;
+left: 77.85px;
+top: 764.25px;
+
+font-family: 'Cambay';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+
+color: #222222;
+
+
+  }
+  
+  .FramePictures {
+
+  }
+  
+  .Background {
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 254.29px;
+height: 270px;
+left: 437.5px;
+top: 620.5px;
+
+border: 10px solid #D9D9D9;
+filter: drop-shadow(0px 20px 60px rgba(47, 68, 73, 0.46));
+
+  }
+  
+  .image {
+
+    position: absolute;
+    width: 251.37px;
+    height: 239.04px;
+    left: 421.94px;
+    top: 636.23px;
+
+  }
+  
+
+  .Orangebutton{
+
+    position: absolute;
+    width: 173px;
+    height: 38px;
+    left: 437px;
+    top: 924px;
+
+    background: #E4782A;
+    border-radius: 83px;
+
+
+    position: absolute;
+    width: 154.4px;
+    height: 20.15px;
+    left: 447px;
+    top: 928px;
+    font-family: 'Cambay';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+   */
+
+   .main{
+    width: 500ox;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .Blog{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   }
+   
+
+   .naslov{
+    color: #000000;
+   
+    font-weight: 700;
+    font-size: 18px;
+   }
+
+
+   .left{
+    width: 50%;
+    padding-right:30px ;
+    padding-left: 30px;
+   }
+
+   .Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .Orangebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30.04px;
+    background: #E4782A;
+    border-radius: 83px;
+    font-family: 'Cambay';
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #E4782A;
+    line-height: 42.04px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   }
+
+   button:hover {
+    background-color: #E7A06E; /* Promijenite boju pozadine na hover */
+    color: white; /* Promijenite boju teksta na hover */
+  }
+  
+  .image{  
+    width: 9em;
+    margin-top: 20px;
+    position: relative;
+   }
+
+  .Background{  
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: -160.5px;
+  top: 20.5px;
+  border: 5px solid #D9D9D9;
+    z-index: -1;
+  }

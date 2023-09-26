@@ -1,0 +1,98 @@
+.title{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.image{
+    height: 100px;
+}
+
+.article{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kosarica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span{
+    height: 20px;
+    padding: 0px 30px;
+}
+
+.spanCijena{
+    height: 20px;
+    padding: 0px 50px;
+    margin-right: 20px;
+    margin-left: 8px;
+}
+
+.span1{
+    height: 20px;
+    padding: 0px 30px;
+}
+
+
+.input{
+    height: 20px;
+    padding: 0px 30px;
+    width: 20px;
+    
+}
+
+.button{
+    height: 20px;
+    width: 20px;
+    background-color: #CC0000;
+    margin-left: 50px;
+    border: none;
+    color: white;
+}
+
+.spanCijena2{
+    height: 20px;
+ 
+    margin-left: 70px;
+}
+
+.spanPutovanje{
+    padding-right:200px ;
+ 
+}
+
+.Orangebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 35.04px;
+    background: #E4782A;
+    border-radius: 83px;
+    font-family: 'Cambay';
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   }
+   button:hover {
+    background-color: #E7A06E; /* Promijenite boju pozadine na hover */
+    color: white; /* Promijenite boju teksta na hover */
+  }
+   .Obutton{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    
+   }

@@ -1,0 +1,37 @@
+
+.blogGrid {
+    width: 90%;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+  }
+  
+.Main{
+
+    margin-top: 80px;
+   
+    display: flex;
+    justify-content: center;
+
+}
+  
+
+  .leftColumn {
+    flex: 1;
+  }
+  
+  .rightColumn {
+    flex: 1;
+    position: relative; /* Postavite relativno pozicioniran za roditeljski stupac */
+  }
+  
+  .rightColumn::before {
+    content: ""; /* Dodajte sadržaj pseudo-elementu */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* Postavite liniju na sredinu stupca */
+    border-left: 1px solid #ccc; /* Dodajte vertikalnu liniju */
+  }
+  

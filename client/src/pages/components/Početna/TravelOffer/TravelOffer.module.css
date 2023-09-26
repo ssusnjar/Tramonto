@@ -1,0 +1,29 @@
+.travelOffer {
+    text-align: center;
+ 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .offerImage {
+    width: 150px;
+    height: 240.790px;
+    object-fit: cover;
+    margin: 0 auto 10px;
+  }
+  
+  .travelOffer h3 {
+    margin: 0;
+  }
+
+  .title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .travelOffer p {
+    margin: 0;
+  }
+  

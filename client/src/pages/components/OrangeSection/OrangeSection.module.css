@@ -1,0 +1,28 @@
+.orangeSection {
+    background-color:#E4782A;
+    padding: 25px;
+    display: flex; /* Koristimo flexbox */
+    justify-content: flex-start; /* Poravnanje na početak */
+    align-items: center;
+    height: 159px;
+  }
+  
+  .content {
+    flex: 1;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal; 
+  }
+ 
+  .title {
+    font-size: 40px;
+    margin-left: 20%;
+    margin-bottom: 0px;
+  } 
+  
+  .description {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 0px;
+  }
+  

@@ -1,0 +1,21 @@
+hr{
+    width:80%;
+
+}
+
+.text{
+    width: 80%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer{
+  
+    margin: 50px 0px;
+}

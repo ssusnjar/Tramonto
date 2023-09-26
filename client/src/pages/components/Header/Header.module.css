@@ -1,0 +1,107 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+  
+  }
+  
+  .logo img {
+    width: 130px;
+    height: 60px;
+  }
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .navlist li a {
+    font-family: "EB Garamond", serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 10em;
+    font-weight: 800;
+    font-size: larger;
+
+
+  }
+  
+  .usericon img {
+   padding-top: 10px;
+    width: 35px;
+    height: 35px;
+  }
+  
+
+.usericon {
+  position: relative;
+}
+
+/* .menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #77A1BC;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  display: none; 
+  border-radius: 25px;
+} */
+
+.usericon:hover .menu {
+  display: block; 
+}
+
+/* .menu a {
+  display: block;
+  text-decoration: none;
+  
+} */
+
+/* styles.module.css */
+.header {
+  /* ... ostali stilovi ... */
+  position: relative; /* Postavljanje roditelja .menu */
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #77A1BC;
+  width: 150px;
+  height: auto; /* Postavite visinu na "auto" da bi se prilagodila sadržaju */
+  padding: 10px;
+  display: none;
+  border-radius: 25px;
+  z-index: 1; /* Postavite indeks zatamnjivanja kako bi bio iznad drugih elemenata */
+}
+
+.drop {
+  margin-bottom: 10px; /* Razmak između stavki u izborniku */
+}
+
+/* Dodajte stilove za "Košarica" i "Prijava" */
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #5c8fb5;
+  color: white;
+}

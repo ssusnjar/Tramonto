@@ -1,0 +1,107 @@
+.FormContainer {
+  padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .loginBox {
+    background-color: #D9D9D9;
+    border: 3px solid orange;
+
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    border-radius: 60px;
+    margin-top: 50px;
+  }
+
+  label{
+      color: #6B705C;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      font-size: 14px;
+  }
+  
+  .title {
+    color: black;
+    padding:0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .icon{
+    width: 20px;
+  }
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .QinputContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .input {
+    flex: 1;
+    padding: 8px;
+    color: #A0A18A;
+    border:none;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .pitanje{
+    text-align: start;
+
+    flex: 1;
+    padding: 88px;
+    color: #A0A18A;
+    border:none;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .form{
+    background-color: white;
+    border-radius: 20px;
+    padding-left:5px;
+    padding-right:5px;
+    margin: 15px;
+    height: auto;
+    padding: 2px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .button {
+    width: 140px;
+    height: 40.04px;
+    background: #E4782A;
+    border-radius: 83px;
+    font-family: 'Cambay';
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #E4782A;
+    line-height: 42.04px;
+    margin-bottom: 20px;
+  }
+  
+  .registerLink {
+    display: flex;
+    justify-content: end;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 12px;
+    gap: 7px;
+  }
+  

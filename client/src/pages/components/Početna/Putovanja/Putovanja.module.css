@@ -1,0 +1,15 @@
+.Putovanja{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+
+}
+
+
+.title{
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+

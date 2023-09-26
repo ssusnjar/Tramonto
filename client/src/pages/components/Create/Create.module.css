@@ -1,0 +1,36 @@
+.form{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.input{
+   margin: 2px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 110px;
+    height: 35.04px;
+    background: #E4782A;
+    border-radius: 83px;
+    font-family: 'Cambay';
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #E4782A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonDiv{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
